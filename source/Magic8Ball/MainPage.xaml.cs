@@ -22,6 +22,31 @@ namespace Magic8Ball
             //BuildLocalizedApplicationBar();
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (question.Text == "")
+            {
+
+                response.Text = "You must ask me a question first";
+
+            }
+
+            else
+            {
+
+
+                
+                string[] responses = { "It is certain", "It is decidedly so", "Without a doubt", "Yes", "Nahhhh",
+                                     "No way", "You serious!?", "Yes you may rely on it", "Outlook good", "Ask again later", "Cannot predict now",
+                                 "That could work"};
+
+
+                response.Text = responses[new Random().Next(0, responses.Length)];                
+
+                
+            }
+        }
+
         // Sample code for building a localized ApplicationBar
         //private void BuildLocalizedApplicationBar()
         //{
