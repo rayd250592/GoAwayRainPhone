@@ -115,6 +115,8 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Magic8Ball_2014_01_18_14_14_42.sap" />
+    <None Include="Magic8Ball_2014_01_18_16_00_57.sap" />
     <None Include="Properties\AppManifest.xml" />
     <None Include="Properties\WMAppManifest.xml">
       <SubType>Designer</SubType>
