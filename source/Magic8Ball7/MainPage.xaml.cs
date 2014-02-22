@@ -37,7 +37,7 @@ namespace Magic8Ball7
 
                 string[] responses = { "It is certain", "It is decidedly so", "Without a doubt", "Yes", "Nahhhh",
                                      "No way", "You serious!?", "Yes you may rely on it", "Outlook good", "Ask again later", "Cannot predict now",
-                                 "That could work"};
+                                 "That could work", "Who knows?", "Give it a go", "Stay clear", "Ha, nice one!", "hahahahaha!", "Go for it", "Indeed"};
 
 
                 response.Text = responses[new Random().Next(0, responses.Length)];
