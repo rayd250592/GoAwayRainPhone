@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
-  <App xmlns="" ProductID="{fc259406-8f9d-4ffc-8bed-b1606c11c758}" Title="Magic8Ball7" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Magic8Ball7 author" Description="Magic 8 Ball App" Publisher="Magic8Ball7">
+  <App xmlns="" ProductID="{fc259406-8f9d-4ffc-8bed-b1606c11c758}" Title="Magic8Ball" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Magic8Ball7 author" Description="Magic 8 Ball App" Publisher="Magic8Ball7">
     <IconPath IsRelative="true" IsResource="false">Logo.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_GAMERSERVICES" />
