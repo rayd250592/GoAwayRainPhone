@@ -22,15 +22,20 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock x:Name="PageTitle" Text="Magic 8 Ball" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock x:Name="PageTitle" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" Text=" Magic 8 Ball"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <Button Content="Ask" HorizontalAlignment="Left" Margin="180,516,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-            <TextBox x:Name="question" HorizontalAlignment="Left" Height="79" Margin="75,214,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="313"/>
+            <Button Content="Ask" HorizontalAlignment="Left" Margin="180,516,0,0" VerticalAlignment="Top" Click="Button_Click" ClickMode="Hover"/>
+            <TextBox x:Name="question" HorizontalAlignment="Left" Height="79" Margin="75,270,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="313"/>
             <TextBlock x:Name="response" HorizontalAlignment="Left" Margin="124,371,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="104" Width="216"/>
             <Image HorizontalAlignment="Left" Height="129" Margin="156,61,0,0" VerticalAlignment="Top" Width="129" Source="/8Ball.png"/>
+            <TextBlock HorizontalAlignment="Left" Margin="124,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="58" Width="180" FontSize="24" TextAlignment="Center">
+            	<Run Text="Ask a Question"/>
+            	<LineBreak/>
+            	<Run Text="Below"/>
+            </TextBlock>
         </Grid>
     </Grid>
 
