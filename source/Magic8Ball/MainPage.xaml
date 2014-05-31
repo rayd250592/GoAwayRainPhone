@@ -6,6 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:UI="clr-namespace:Microsoft.Advertising.Mobile.UI;assembly=Microsoft.Advertising.Mobile.UI"
+    xmlns:GoogleAds="clr-namespace:GoogleAds;assembly=GoogleAds"
     x:Class="Magic8Ball.MainPage"
     mc:Ignorable="d"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
@@ -58,8 +59,9 @@
             <TextBox x:Name="question" HorizontalAlignment="Left" Height="71" Margin="43,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="340"/>
             <TextBox x:Name="response" HorizontalAlignment="Left" Height="71" Margin="43,273,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="340"/>
 
-            <UI:AdControl ApplicationId="14e3ba57-9932-4f0c-b1bc-643d08bbba82" AdUnitId="10720339" HorizontalAlignment="Left" Height="50" Margin="63,0,0,0" VerticalAlignment="Top" Width="320
-"/>
+        
+
+            <GoogleAds:AdView AdUnitID="ca-app-pub-7634111274429769/3953456731" Format="Banner" HorizontalAlignment="Left" Margin="53,24,0,0" VerticalAlignment="Top" Width="320" Height="50"/>
 
         </Grid>
 
